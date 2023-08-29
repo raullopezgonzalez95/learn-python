@@ -14,6 +14,9 @@ print(decimal)
 boleano = True
 print(boleano)
 
+a, b = 3, 4
+print(a, b)
+
 # Metodos String
 texto = "Hola Mundo"
 print(texto.upper())# HOLA MUNDO
