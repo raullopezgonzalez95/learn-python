@@ -1,6 +1,6 @@
-import pytube
+from pytube import YouTube as yt
 
-link = input('Youtube Video URL')
-video_download = pytube.Youtube(link)
+link = input('Youtube Video URL: ')
+video_download = yt(link)
 video_download.streams.first().download()
-print('Video Downloaded', link)
+print('Video Downloaded')
